@@ -1,0 +1,55 @@
+.translator {
+  --accent: hsl(220, 90%, 100%, 0.5);
+  --accent-dark: hsl(220, 10%, 10%);
+  
+  padding: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  gap: 1rem;
+
+  & .reverse {
+    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+    color: var(--accent);
+    font-weight: 400;
+    user-select: none;
+  }
+
+  & .left, & .right {
+
+    min-width: 20rem;
+    max-width: 30rem;
+
+    width: 40%;
+    height: 15rem;
+
+    border-radius: 1rem;
+    
+    background-color: var(--accent-dark);
+
+    cursor: pointer;
+
+    & textarea {
+      font-family: 'Poppins', sans-serif;
+
+      width: 100%;
+      height: inherit;
+
+      resize: none;
+      outline: none;
+
+      background-color: transparent;
+      color: var(--accent);
+      
+      padding: 1rem;
+      font-size: 1.1rem;
+      border: none;
+
+    }
+  }
+}

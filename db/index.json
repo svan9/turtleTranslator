@@ -1,0 +1,18 @@
+[
+  { 
+    "type": ["ru-trt", "trt-ru"],
+    "direction": "trt-ru",
+    "words":
+    [
+      { "trt": "el" , "ru": "я" },
+      { "trt": "une el" , "ru": "нет я" },
+      { "trt": "un el" , "ru": "не я" },
+      { "trt": "une el is unkue" , "ru": "нет я разностаронний" },
+      { "trt": "une" , "ru": "нет" },
+      { "trt": "des" , "ru": "?" },
+      { "trt": "is" , "ru": "являться" },
+      { "trt": "el is el" , "ru": "я есть я" },
+      { "trt": "el is" , "ru": "я -" }
+    ]
+  }
+]
