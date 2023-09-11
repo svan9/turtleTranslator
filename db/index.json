@@ -12,7 +12,13 @@
       { "trt": "des" , "ru": "?" },
       { "trt": "is" , "ru": "являться" },
       { "trt": "el is el" , "ru": "я есть я" },
-      { "trt": "el is" , "ru": "я -" }
+      { "trt": "el is" , "ru": "я -" },
+      { "trt": "un is" , "ru": "не являться" },
+      { "trt": "el un is" , "ru": "я не" },
+      { "trt": "el un is" , "ru": "я не" },
+      { "trt": "un nova" , "ru": "гей" },
+      { "trt": "nova" , "ru": "традиции" },
+      { "trt": "un eu nova" , "ru": "натурал" },
     ]
   }
 ]
